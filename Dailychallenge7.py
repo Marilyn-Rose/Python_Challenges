@@ -16,9 +16,9 @@ def calculation(first_par,second_par,third_par):
         return first_par - third_par
     elif second_par == "/" :
         return first_par / third_par
-    elif second_par == "." :
+    elif second_par == "*" :
         return first_par * third_par
     else:
         print("Wrong operator inputed")
-    
+         
 print(calculation(first_par,second_par,third_par))
